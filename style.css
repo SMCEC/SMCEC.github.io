@@ -1,0 +1,111 @@
+@font-face {
+    font-family: MarkPro;
+    src: url("fonts/MarkPro.otf");
+}
+
+@font-face {
+    font-family: MarkPro;
+    src: url("fonts/MarkPro-Bold.otf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: "GT-America";
+    src: url('fonts/GT-America-Mono-Light-v1.otf')
+}
+@font-face{
+  font-family:"GT-Sectra";
+  src: url("fonts/GT-Sectra-Fine-Bold.ttf");
+}
+
+.main {
+  width:100%;
+  height:100%;
+}
+
+html { 
+  width:100%;
+  height:100%;
+  background: url(splash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+body {
+  background:rgba(255,255,255,0.6); /* applies a 50% transparent white background */
+  width:100%;
+  height:100%;
+  padding:0%;
+  margin-top: 0%;
+  margin-left: 0%;
+  /*overflow: hidden;*/
+}
+
+
+.navbar {
+  overflow: hidden;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:9999999;
+  /*color:black;*/
+}
+
+.navbar a {
+	font-weight:lighter;
+	float: left;
+	display: block;
+	color:#36454f;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: GT-Sectra;
+	cursor: pointer;
+	/*border-right: solid 1px white;*/
+}
+
+.navbar a:hover {
+  cursor:pointer;
+  /*background: #ddd;*/
+  color: black;
+}
+
+.sep {
+  margin-left: 20px;
+}
+
+
+.main {
+  position: absolute;
+  z-index:9;
+}
+
+h1 {
+  font-family: GT-Sectra;
+  /*font-family: MarkPro;*/
+  font-family: 'Vidaloka', serif;
+  font-size:55px;
+  letter-spacing: 21px;
+  text-transform: uppercase;
+  display: table;
+  margin: 0 auto;
+  margin-top:15%;
+  color:#2E2E2E;
+}
+
+h3 {
+	font-style:italic;
+	font-weight:lighter;
+	width:45%;
+	display:table;
+	margin: 0 auto;
+	text-align: center;
+	margin-top:1%;
+	color:#36454f;
+}
+
