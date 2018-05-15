@@ -41,7 +41,7 @@ body {
   padding:0%;
   margin-top: 0%;
   margin-left: 0%;
-  /*overflow: hidden;*/
+
 }
 
 
@@ -67,11 +67,11 @@ body {
 	font-family: GT-Sectra;
 	cursor: pointer;
 	/*border-right: solid 1px white;*/
+
 }
 
 .navbar a:hover {
   cursor:pointer;
-  /*background: #ddd;*/
   color: black;
 }
 
