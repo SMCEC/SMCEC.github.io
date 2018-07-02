@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+
+<link href="style-sub.css" rel="stylesheet">
+
+<body>
+
+	<div class="navbar">
+	    <a href="#home">Home <span class="sep">|</span></a>
+	    <a href="about.html">About <span class="sep">|</span></a>
+	    <a href="contributors.html">Contributors <span class="sep">|</span></a>
+	    <a href="give.html">Give <span class="sep">|</span></a>
+	    <a href="contact.html">Contact </a>
+	 </div>
+
+
+	<div id="main">
+	  <h1 class="sub-heading" contenteditable="true">Give</h1>
+	  <div class="blurb" contenteditable="true">
+	  
+	 Lamplight will be the first program to take place at the Sand Mountain Cooperative Education Center (SMCEC). SMCEC is located on the Western shore of Guntersville lake, just across from Sand Mountain. Despite its modest size, it has swamp, pine forest, grassy fields, a garden, and a lakehouse. We hope that one day, in the tradition of Highlander Folk School (now called Highlander Research and Education Center), it will be used by the people of Northern Alabama to host meetings, retreats, and cultural events, and that it will serve to connect the work of the many amazing community organizations in Northern Alabama. We want the space to be an open resource for the communities of North Alabama in their struggle to collectively improve their lives.
+	  <p/>
+
+	  </div>
+	</div>
+
+
+
+
+</body>
+</html>
